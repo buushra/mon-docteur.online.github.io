@@ -1,0 +1,121 @@
+.bg1{
+	
+	margin-left:  82%;
+	margin-top: 10%;
+	height: 260px;
+}
+
+.bg2{
+	 /* Add the blur effect */
+    filter: blur(0.6px);
+	margin-top: 10%;
+}
+
+.text{
+	 color: darkgreen;
+	 background-color: rgb(0,0,0); /* Fallback color */
+     background-color: hsla(120, 100%, 75%, 0.3);  /* green with opacity */
+	 font-family: arial;
+	 font-weight: bold ;
+	 border: 3px solid #f1f1f1;
+     position: absolute;
+	 top: 40%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 z-index: 2;
+	 width: 75%;
+	 padding: 20px;
+	 text-align: center;
+}
+
+.bg3, .bg4, .bg5{
+	width: 50%; height: 200px; border: 2px solid #f1f1f1; 
+}
+
+
+.bg3{
+	margin-top: 28%;
+	float: left;
+	
+	 
+}
+
+h3{
+	 color: darkgreen;
+	 background-color: rgb(0,0,0); /* Fallback color */
+     background-color: hsla(120, 100%, 75%, 0.3);  /* green with opacity */
+	 font-family: arial;
+	 font-weight: bold ;
+	 border: 3px solid #f1f1f1;
+}
+
+p, ul{
+	color: #039BE5;
+	background-color: rgb(0,0,0); /* Fallback color */
+    background-color: hsla(120, 100%, 75%, 0.3);  /* green with opacity */
+}
+
+.bg4{
+	background-image: url("image/take.jpg");
+	background-repeat: no-repeat;
+	margin-top: 28%;
+	float: left;
+}
+
+.bg5{
+	margin-top: 1%;
+	float: right;
+	
+	 
+}
+
+.bg6{
+	background-image: url("image/hearth.jpg");
+	background-repeat: no-repeat;
+	float: left;
+	width: 50%; height: 100%; border: 2px solid #f1f1f1; 
+	margin-top: 1%;
+}
+
+/* Use a media query to add a breakpoint at 400px: */
+@media screen and (max-width: 400px) {
+  body{
+    width: 100%; /* The width is 100%, when the viewport is 400px or smaller */
+  }
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}

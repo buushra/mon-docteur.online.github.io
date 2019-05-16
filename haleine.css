@@ -1,0 +1,123 @@
+body{
+	background-image: url("image/43.jpg");
+	
+	background-color: #F5F5F5;
+	width: 1340px;
+	
+}
+
+.h1{
+	color: #17bebb;
+	margin-left: 450px;
+	margin-top: 30px;
+}
+
+.h2{
+	color: #17bebb;
+	margin-left: 50px;
+	width: 460px;
+}
+
+.num{
+	background-color: #17bebb;
+	color: darkblue;
+	width: 60px;
+	height: auto;
+	padding-left: 5px;
+	padding: 5px;
+}
+
+.p1{
+	color: darkblue; 
+	font-size: 17px;
+	text-align: justify;
+	font-family: Geneva; 
+	width: 500px;
+}
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {max-width: 700px;position: relative;margin: auto;}
+
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;position: absolute;top: 150px;width: auto;margin-top: -22px;padding: 10px;color: #17bebb;margin-left: -30px;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.fade {
+  -webkit-animation-name: fade; -webkit-animation-duration: 1.5s;animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Use a media query to add a breakpoint at 400px: */
+@media screen and (max-width: 400px) {
+  body{
+    width: 100%; /* The width is 100%, when the viewport is 400px or smaller */
+  }
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}

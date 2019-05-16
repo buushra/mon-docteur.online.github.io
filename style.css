@@ -1,0 +1,27 @@
+
+.btn-search {
+	  background: #17bebb;
+	  border-radius: 0;
+	  color: white;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: white;
+	  height: 50px;
+	  margin-top: 10px;
+	}
+	.btn-search:link, .btn-search:visited {
+	  color: #17bebb;
+	}
+	.btn-search:active, .btn-search:hover {
+	  background: white;
+	  color: #17bebb;
+	}
+
+
+	
+	/* Use a media query to add a breakpoint at 400px: */
+@media screen and (max-width: 400px) {
+  body{
+    width: 100%; /* The width is 100%, when the viewport is 400px or smaller */
+  }
+}

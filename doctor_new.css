@@ -1,0 +1,219 @@
+body{
+  background-color: #f4f9f4;
+}
+
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {max-width: 1000px;position: relative;margin: auto;}
+
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;position: absolute;top: 50%;width: auto;margin-top: -22px;padding: 16px;color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;font-size: 15px;padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2; font-size: 12px;
+  padding: 8px 12px;position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer; height: 15px;width: 15px;
+  margin: 0 2px;background-color: #bbb;
+  border-radius: 50%;display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade; -webkit-animation-duration: 1.5s;animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.content{
+	margin: 0 auto;
+
+	background-image: url(image/1.jpg);
+	width: 730px;
+	height: 99.6%;
+}
+
+	 /* Add the blur effect */
+    /*filter: blur(8px);*/
+
+.socrate{
+	color: #17bebb;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+
+.hiver, .arreter{
+	width: 317px;
+	height: 200px;
+}
+
+.hiv, .enf, .de, .arr{
+	color: #17bebb;
+}
+
+.enfant, .dent{
+	width: 313px;
+	height: 200px;
+}
+
+.enf, .de{
+	
+	color: #17bebb;
+	float: right;
+}
+
+.eh, .oh, .op, .os{
+	background-color: white;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.eh{
+	margin-top: 11px;
+}
+
+
+
+.patient{
+	width: 100%;
+	height: 380px;
+	
+}
+
+.pat{
+	width: 100%;
+	height: 300px;
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color: darkblue;
+}
+
+
+
+
+
+
+.s{
+	background-image: url("image/soins1.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-left: 20%;
+	margin-top: 10%;
+	height: 100%;
+	
+	
+}
+
+@media screen and (max-width: 400px) {
+  body{
+    width: 100%; 
+  }
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 920px) {
+ 
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
